@@ -8,16 +8,16 @@ Welcome to the **FLEXICAR** repository — a responsive web application with a u
 
 🖥 **Live Demo**: [https://olgabieliaieva.github.io/flexicar/](https://olgabieliaieva.github.io/flexicar/)
 
-📐 **Figma Design**: [Figma Design Link](https://www.figma.com/design/w5OoWTN3crQUe0mwOrAZu3/FLEXICAR-car-rent-test-task?node-id=224-5010&m=dev) your Figma link -->
+📐 **Figma Design**: [Figma Design Link](https://www.figma.com/design/w5OoWTN3crQUe0mwOrAZu3/FLEXICAR-car-rent-test-task?node-id=224-5010&m=dev)
 
 ---
 
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="./screenshots/mobile-view.png" alt="Mobile View" width="250"/> 
-  <img src="./screenshots/tablet-view.png" alt="Tablet View" width="600"/>  
-  <img src="./screenshots/desktop-view.png" alt="Desktop View" width="1200"/>
+  <img src="https://olgabieliaieva.github.io/flexicar/screenshots/mobile-view.png" alt="Mobile View" width="250"/> 
+  <img src="https://olgabieliaieva.github.io/flexicar/screenshots/tablet-view.png" alt="Tablet View" width="600"/>  
+  <img src="https://olgabieliaieva.github.io/flexicar/screenshots/desktop-view.png" alt="Desktop View" width="1200"/>
 </div>
 
 ---
