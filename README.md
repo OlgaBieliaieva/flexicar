@@ -15,9 +15,9 @@ Welcome to the **FLEXICAR** repository — a responsive web application with a u
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="https://olgabieliaieva.github.io/flexicar/screenshots/mobile-view.png" alt="Mobile View" width="250"/> 
-  <img src="https://olgabieliaieva.github.io/flexicar/screenshots/tablet-view.png" alt="Tablet View" width="600"/>  
-  <img src="https://olgabieliaieva.github.io/flexicar/screenshots/desktop-view.png" alt="Desktop View" width="1200"/>
+  <img src="https://olgabieliaieva.github.io/flexicar/assets/screenshots/mobile-view.png" alt="Mobile View" width="250"/> 
+  <img src="https://olgabieliaieva.github.io/flexicar/assets/screenshots/tablet-view.png" alt="Tablet View" width="600"/>  
+  <img src="https://olgabieliaieva.github.io/flexicar/assets/screenshots/desktop-view.png" alt="Desktop View" width="1200"/>
 </div>
 
 ---
