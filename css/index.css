@@ -1123,14 +1123,14 @@ input {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--color-accent);
-  background-image: url(../assets/images/mobile/contact-us-bg.jpg);
+  background-image: url(../assets/images/mobile/contact-us-bg.webp);
 
   @media screen and (min-width: 768px) {
-    background-image: url(../assets/images/tablet/contact-us-bg.jpg);
+    background-image: url(../assets/images/tablet/contact-us-bg.webp);
   }
 
   @media screen and (min-width: 1920px) {
-    background-image: url(../assets/images/desktop/contact-us-bg.jpg);
+    background-image: url(../assets/images/desktop/contact-us-bg.webp);
   }
 }
 .contact-us-container {
