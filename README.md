@@ -6,9 +6,8 @@ Welcome to the **FLEXICAR** repository — a responsive web application with a u
 
 ## 🔍 Demo
 
-🖥 **Live Demo**: [booking-project.netlify.app](https://booking-project.netlify.app) <!-- TODO: replace with your live link -->
-
-📐 **Figma Design**: [Figma Design Link](https://www.figma.com/file/xxxxxxxxxxxxxxxx) <!-- TODO: replace with your Figma link -->
+🖥 **Live Demo**: [booking-project.netlify.app](https://olgabieliaieva.github.io/flexicar/)
+📐 **Figma Design**: [Figma Design Link](https://www.figma.com/design/w5OoWTN3crQUe0mwOrAZu3/FLEXICAR-car-rent-test-task?node-id=208-44542&t=TGWgIrMQNX6q4LMJ-1) 
 
 ---
 
