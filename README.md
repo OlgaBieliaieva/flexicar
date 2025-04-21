@@ -63,9 +63,9 @@ The **FLEXICAR** project has been analyzed with [Lighthouse](https://developers.
 | Device         | Screen Size     |
 | -------------- | --------------- |
 | **Mobile**     | 320px – 767px   |
-| **Tablet**     | 768px – 1439px  |
-| **Desktop**    | 1440px – 1920px |
-| **Ultra-wide** | 1920px+         |
+| **Tablet**     | 768px – 1919px  |
+| **Desktop**    | 1920px+         |
+
 
 ---
 
