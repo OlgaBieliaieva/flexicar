@@ -71,14 +71,14 @@ phoneInput.addEventListener("input", () => {
   const mask = dialMasks[currentDial];
   phoneInput.value = `${currentDial} ${maskPhone(digits, mask)}`;
   phoneInput.setCustomValidity("");
-  phoneInput.classList.remove("is-invalid"); // при зміні прибираємо помилку
+  phoneInput.classList.remove("is-invalid");
 });
 
 phoneInput.addEventListener("blur", () => {
   const valid = isPhoneValid(phoneInput.value);
   phoneInput.setCustomValidity(valid ? "" : "Invalid phone number");
   phoneInput.reportValidity();
-  phoneInput.classList.toggle("is-invalid", !valid); // додати/зняти клас
+  phoneInput.classList.toggle("is-invalid", !valid);
 });
 
 trigger.addEventListener("click", () => {

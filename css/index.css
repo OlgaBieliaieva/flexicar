@@ -3,7 +3,7 @@
 *::after {
   box-sizing: border-box;
 }
-
+wv
 /* Base settings */
 html {
   font-size: 14px;
@@ -502,7 +502,7 @@ input {
 }
 
 .section-menu {
-  width: 100wv;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   padding-top: var(--space-l);
@@ -834,7 +834,15 @@ input {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--color-accent);
-  background-image: url(../assets/images/mobile/card-bg.png);
+  background-image: url(../assets/images/mobile/card-bg.webp);
+
+  @media screen and (min-width: 768px) {
+    background-image: url(../assets/images/tablet/card-bg.webp);
+  }
+
+  @media screen and (min-width: 1920px) {
+    background-image: url(../assets/images/desktop/card-bg.webp);
+  }
 }
 .confirm-container {
   padding-top: var(--space-xl);
