@@ -1,0 +1,1450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Your Trusted Ride Awaits" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
+      integrity="sha512-gnAN+RgTMylunXI7AMg+PtcUGpKZFkZJoFIkAWvdPFRrFJz3p2tx4+9xbjILRfN7CzoViMgS8vSf06fSQzWZjA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="./assets/icons/favicon.png" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>FLEXICAR</title>
+    <script src="https://unpkg.com/inputmask@5.0.8/dist/inputmask.min.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a href="./index.html" class="logo">
+            <svg width="150" height="18">
+              <use href="./assets/icons/icons-sprite.svg#icon-logo"></use>
+            </svg>
+          </a>
+          <ul class="nav-list hidden-mobile-tablet">
+            <li>
+              <a href="./index.html">Book</a>
+            </li>
+            <li>
+              <a href="./index.html">Help</a>
+            </li>
+            <li>
+              <a href="./index.html">FAQ</a>
+            </li>
+            <li><a href="./index.html">Rental policies</a></li>
+            <li><a href="./index.html">Blog&Guides</a></li>
+          </ul>
+        </nav>
+        <ul class="header-menu">
+          <li class="language-select hidden-mobile-tablet">
+            <div class="select-trigger">
+              <span class="selected-language">EN</span>
+              <svg width="24" height="24">
+                <use
+                  href="./assets/icons/icons-sprite.svg#icon-chevron-down"
+                ></use>
+              </svg>
+            </div>
+            <ul class="language-list">
+              <li data-lang="UA">
+                <div>
+                  <svg width="20" height="20">
+                    <use
+                      href="./assets/icons/icons-sprite.svg#icon-flag-ukraine"
+                    ></use>
+                  </svg>
+                  <span>Ukrainian</span>
+                </div>
+                <svg width="20" height="20">
+                  <use
+                    href="./assets/icons/icons-sprite.svg#icon-light_check"
+                  ></use>
+                </svg>
+              </li>
+              <li data-lang="EN">
+                <div>
+                  <svg width="20" height="20">
+                    <use
+                      href="./assets/icons/icons-sprite.svg#icon-flag-united-kingdom"
+                    ></use>
+                  </svg>
+                  <span>English</span>
+                </div>
+                <svg width="20" height="20">
+                  <use
+                    href="./assets/icons/icons-sprite.svg#icon-light_check"
+                  ></use>
+                </svg>
+              </li>
+              <li data-lang="HR">
+                <div>
+                  <svg width="20" height="20">
+                    <use
+                      href="./assets/icons/icons-sprite.svg#icon-flag-croatia"
+                    ></use>
+                  </svg>
+                  <span>Croatian</span>
+                </div>
+                <svg width="20" height="20">
+                  <use
+                    href="./assets/icons/icons-sprite.svg#icon-light_check"
+                  ></use>
+                </svg>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item hidden-mobile">
+            <a href="tel:+1234567890" class="contact-link">
+              <svg width="24" height="24">
+                <use href="./assets/icons/icons-sprite.svg#icon-phone"></use>
+              </svg>
+              +123 456 7890</a
+            >
+          </li>
+          <li class="hidden-mobile-tablet">
+            <button class="log-in">
+              <svg width="24" height="24">
+                <use
+                  href="./assets/icons/icons-sprite.svg#icon-log-in-02"
+                ></use>
+              </svg>
+              <span>Sign in</span>
+            </button>
+          </li>
+          <li class="hidden-desktop">
+            <button
+              class="mobile-menu-btn js-toggle-menu"
+              aria-expanded="false"
+              type="button"
+            >
+              <svg width="24" height="24" class="icon icon-burger">
+                <use
+                  href="./assets/icons/icons-sprite.svg#icon-burger-menu"
+                ></use>
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <nav class="container breadcrumbs hidden-mobile-tablet">
+      <ul class="breadcrumbs-list">
+        <li class="breadcrumbs-item">
+          <a href="./index.html">Home</a>
+          <svg width="16" height="16">
+            <use
+              href="./assets/icons/icons-sprite.svg#icon-chevron-right"
+            ></use>
+          </svg>
+        </li>
+        <li class="breadcrumbs-item">
+          <a href="./index.html">Search results</a>
+          <svg width="16" height="16">
+            <use
+              href="./assets/icons/icons-sprite.svg#icon-chevron-right"
+            ></use>
+          </svg>
+        </li>
+        <li class="breadcrumbs-item">
+          <a href="./index.html">Volkswagen Touareg</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div class="container">
+        <h1 class="visually-hidden">Car booking</h1>
+        <div class="main-content-wrapper">
+          <section class="left-section">
+            <h2 class="visually-hidden">Car description</h2>
+            <section class="step">
+              <div
+                class="container section-container product-description-container"
+              >
+                <div class="product-info-container">
+                  <div class="product-thumb">
+                    <picture class="product-img">
+                      <source
+                        media="(min-width: 1920px)"
+                        srcset="
+                          ./assets/images/desktop/car@1x.png 1x,
+                          ./assets/images/desktop/car@2x.png 2x
+                        "
+                        type="image/png"
+                        width="460"
+                      />
+                      <source
+                        media="(min-width: 768px)"
+                        srcset="
+                          ./assets/images/tablet/car@1x.png 1x,
+                          ./assets/images/tablet/car@2x.png 2x
+                        "
+                        type="image/jpg"
+                        width="344"
+                      />
+                      <img
+                        src="./assets/images/mobile/car@1x.png"
+                        alt="Volkswagen Touareg"
+                        width="361"
+                        loading="lazy"
+                      />
+                    </picture>
+                  </div>
+                  <div class="product-info-wrapper">
+                    <div>
+                      <h3 class="product-title">Volkswagen Touareg</h3>
+                      <div class="product-subtitle">
+                        <span>32,98 EUR</span>
+                        <span class="product-subtitle-add">/day</span>
+                      </div>
+                    </div>
+                    <h4 class="visually-hidden">Additional information</h4>
+                    <div>
+                      <h5 class="subsection-list-title">Included in Price</h5>
+                      <ul class="subsection-list">
+                        <li class="subsection-list-item">
+                          <svg class="btn__icon" width="16" height="16">
+                            <use
+                              href="./assets/icons/icons-sprite.svg#icon-check-circle-broken-white"
+                            ></use>
+                          </svg>
+                          <span>Airport/City fee</span>
+                        </li>
+                        <li class="subsection-list-item">
+                          <svg class="btn__icon" width="16" height="16">
+                            <use
+                              href="./assets/icons/icons-sprite.svg#icon-check-circle-broken-white"
+                            ></use>
+                          </svg>
+                          <span>Local tax</span>
+                        </li>
+                        <li class="subsection-list-item">
+                          <svg class="btn__icon" width="16" height="16">
+                            <use
+                              href="./assets/icons/icons-sprite.svg#icon-check-circle-broken-white"
+                            ></use>
+                          </svg>
+                          <span>Registration fee</span>
+                        </li>
+                        <li class="subsection-list-item">
+                          <svg class="btn__icon" width="16" height="16">
+                            <use
+                              href="./assets/icons/icons-sprite.svg#icon-check-circle-broken-white"
+                            ></use>
+                          </svg>
+                          <span>Unlimited mileage</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <ul class="subsection-grid">
+                      <li class="subsection-grid-item">
+                        <svg class="btn__icon" width="16" height="16">
+                          <use
+                            href="./assets/icons/icons-sprite.svg#icon-car-doors"
+                          ></use>
+                        </svg>
+                        <span>5 Doors</span>
+                      </li>
+                      <li class="subsection-grid-item">
+                        <svg class="btn__icon" width="16" height="16">
+                          <use
+                            href="./assets/icons/icons-sprite.svg#icon-luggage-01"
+                          ></use>
+                        </svg>
+                        <span>3 Suitcase</span>
+                      </li>
+                      <li class="subsection-grid-item">
+                        <svg class="btn__icon" width="16" height="16">
+                          <use
+                            href="./assets/icons/icons-sprite.svg#icon-tabler_manual-gearbox"
+                          ></use>
+                        </svg>
+                        <span>5 Manual</span>
+                      </li>
+                      <li class="subsection-grid-item">
+                        <svg class="btn__icon" width="16" height="16">
+                          <use
+                            href="./assets/icons/icons-sprite.svg#icon-users-01"
+                          ></use>
+                        </svg>
+                        <span>5 Passengers</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <button class="btn primary continue-btn hidden-desktop">
+                  Proceed to Booking
+                </button>
+              </div>
+            </section>
+            <!-- after -->
+            <section class="step visually-hidden">
+              <div class="section-menu hidden-desktop">
+                <div class="container section-container">
+                  <ul class="progress-bar">
+                    <li
+                      class="progress-bar-item step-1 in-progress"
+                      aria-current="step"
+                    >
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g id="Indicator-1">
+                          <circle
+                            id="Ellipse-1-1"
+                            cx="12"
+                            cy="12"
+                            r="12"
+                            fill="#B68867"
+                            fill-opacity="0.2"
+                          />
+                          <circle
+                            id="Ellipse-1-2"
+                            cx="12"
+                            cy="12"
+                            r="6.5"
+                            fill="#B68867"
+                            stroke="#FEFEFF"
+                          />
+                        </g>
+                      </svg>
+                      <span>Add on extras</span>
+                    </li>
+                    <li class="progress-bar-item step-2 non-active">
+                      <div class="non-active-wrapper">
+                        <svg
+                          width="12"
+                          height="12"
+                          viewBox="0 0 12 12"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g id="Indicator-2">
+                            <circle
+                              id="Ellipse-2-1"
+                              cx="6"
+                              cy="6"
+                              r="6"
+                              fill="#4F4F51"
+                            />
+                          </g>
+                        </svg>
+                      </div>
+                      <span>Insurance</span>
+                    </li>
+                    <li class="progress-bar-item step-3 non-active">
+                      <div class="non-active-wrapper">
+                        <svg
+                          width="12"
+                          height="12"
+                          viewBox="0 0 12 12"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g id="Indicator-3">
+                            <circle
+                              id="Ellipse-3-1"
+                              cx="6"
+                              cy="6"
+                              r="6"
+                              fill="#4F4F51"
+                            />
+                          </g>
+                        </svg>
+                      </div>
+                      <span>Confirm Order</span>
+                    </li>
+                    <li class="progress-bar-item step-4 non-active">
+                      <div class="non-active-wrapper">
+                        <svg
+                          width="12"
+                          height="12"
+                          viewBox="0 0 12 12"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g id="Indicator-4">
+                            <circle
+                              id="Ellipse-4-1"
+                              cx="6"
+                              cy="6"
+                              r="6"
+                              fill="#4F4F51"
+                            />
+                          </g>
+                        </svg>
+                      </div>
+                      <span>Payment</span>
+                    </li>
+                  </ul>
+                  <div class="info-container">
+                    <div class="product-thumb-mini">
+                      <picture>
+                        <source
+                          media="(max-width: 1919px)"
+                          srcset="
+                            ./assets/images/tablet/car-mini@1x.png 1x,
+                            ./assets/images/tablet/car-mini@2x.png 2x
+                          "
+                          type="image/jpg"
+                          width="74"
+                        />
+                        <img
+                          src="./assets/images/mobile/car-mini@1x.png"
+                          alt="Volkswagen Touareg"
+                          width="74"
+                          loading="lazy"
+                        />
+                      </picture>
+                    </div>
+                    <div class="product-info-mini">
+                      <span class="product-title-mini">Volkswagen Touareg</span>
+                      <span class="product-subtitle-mini"
+                        >or similar Intermediate</span
+                      >
+                      <span class="product-description-mini">1 rental day</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container section-container product-extras-container">
+                <h4 class="section-title">Add on extras</h4>
+                <ul class="section-grid">
+                  <li class="section-grid-item">
+                    <div class="item-content-wrapper">
+                      <svg class="extras-icon" width="24" height="24">
+                        <use
+                          href="./assets/icons/icons-sprite.svg#icon-infinity"
+                        ></use>
+                      </svg>
+                      <!-- after -->
+                      <div class="content">
+                        <span>Unlimited mileage</span>
+                        <span class="content-large">15 EUR</span>
+                      </div>
+                    </div>
+                    <label class="item-checkbox">
+                      <input
+                        class="visually-hidden"
+                        type="checkbox"
+                        name="Unlimited mileage"
+                        aria-label="Unlimited mileage"
+                      />
+
+                      <svg width="24" height="24">
+                        <use
+                          class="checkbox-icon-unchecked"
+                          href="./assets/icons/icons-sprite.svg#icon-plus"
+                        ></use>
+                        <use
+                          class="checkbox-icon-checked"
+                          href="./assets/icons/icons-sprite.svg#icon-minus"
+                        ></use>
+                      </svg>
+                    </label>
+                  </li>
+                  <li class="section-grid-item">
+                    <div class="item-content-wrapper">
+                      <svg class="extras-icon" width="24" height="24">
+                        <use
+                          href="./assets/icons/icons-sprite.svg#icon-globe-05"
+                        ></use>
+                      </svg>
+                      <!-- after -->
+                      <div class="content">
+                        <span>Cross-border fee</span>
+                        <span class="content-large">15 EUR</span>
+                      </div>
+                    </div>
+                    <label class="item-checkbox">
+                      <input
+                        class="visually-hidden"
+                        type="checkbox"
+                        name="Cross-border fee"
+                        aria-label="Cross-border fee"
+                      />
+                      <svg class="btn__icon" width="24" height="24">
+                        <use
+                          class="checkbox-icon-unchecked"
+                          href="./assets/icons/icons-sprite.svg#icon-plus"
+                        ></use>
+                        <use
+                          class="checkbox-icon-checked"
+                          href="./assets/icons/icons-sprite.svg#icon-minus"
+                        ></use>
+                      </svg>
+                    </label>
+                  </li>
+                  <li class="section-grid-item">
+                    <div class="item-content-wrapper">
+                      <svg class="extras-icon" width="24" height="24">
+                        <use
+                          href="./assets/icons/icons-sprite.svg#icon-park-outline_petrol"
+                        ></use>
+                      </svg>
+                      <!-- after -->
+                      <div class="content">
+                        <span>Full tank service</span>
+                        <span class="content-large">15 EUR</span>
+                      </div>
+                    </div>
+                    <label class="item-checkbox">
+                      <input
+                        class="visually-hidden"
+                        type="checkbox"
+                        name="Full tank service"
+                        aria-label="Full tank service"
+                      />
+
+                      <svg class="btn__icon" width="24" height="24">
+                        <use
+                          class="checkbox-icon-unchecked"
+                          href="./assets/icons/icons-sprite.svg#icon-plus"
+                        ></use>
+                        <use
+                          class="checkbox-icon-checked"
+                          href="./assets/icons/icons-sprite.svg#icon-minus"
+                        ></use>
+                      </svg>
+                    </label>
+                  </li>
+                  <li class="section-grid-item">
+                    <div class="item-content-wrapper">
+                      <svg class="extras-icon" width="24" height="24">
+                        <use
+                          href="./assets/icons/icons-sprite.svg#icon-baby-seat2"
+                        ></use>
+                      </svg>
+                      <!-- after -->
+                      <div class="content">
+                        <span>Child seat</span>
+                        <span class="content-large">15 EUR</span>
+                      </div>
+                    </div>
+                    <label class="item-checkbox">
+                      <input
+                        class="visually-hidden"
+                        type="checkbox"
+                        name="Child seat"
+                        aria-label="Child seat"
+                      />
+
+                      <svg width="24" height="24">
+                        <use
+                          class="checkbox-icon-unchecked"
+                          href="./assets/icons/icons-sprite.svg#icon-plus"
+                        ></use>
+                        <use
+                          class="checkbox-icon-checked"
+                          href="./assets/icons/icons-sprite.svg#icon-minus"
+                        ></use>
+                      </svg>
+                    </label>
+                  </li>
+                  <li class="section-grid-item">
+                    <div class="item-content-wrapper">
+                      <svg class="extras-icon" width="24" height="24">
+                        <use
+                          href="./assets/icons/icons-sprite.svg#icon-navigation-pointer-01"
+                        ></use>
+                      </svg>
+                      <!-- after -->
+                      <div class="content">
+                        <span>GPS navigation system</span>
+                        <span class="content-large">15 EUR</span>
+                      </div>
+                    </div>
+                    <label class="item-checkbox">
+                      <input
+                        class="visually-hidden"
+                        type="checkbox"
+                        name="GPS navigation system"
+                        aria-label="GPS navigation system"
+                      />
+
+                      <svg class="btn__icon" width="24" height="24">
+                        <use
+                          class="checkbox-icon-unchecked"
+                          href="./assets/icons/icons-sprite.svg#icon-plus"
+                        ></use>
+                        <use
+                          class="checkbox-icon-checked"
+                          href="./assets/icons/icons-sprite.svg#icon-minus"
+                        ></use>
+                      </svg>
+                    </label>
+                  </li>
+                  <li class="section-grid-item">
+                    <div class="item-content-wrapper">
+                      <svg class="extras-icon" width="24" height="24">
+                        <use
+                          href="./assets/icons/icons-sprite.svg#icon-wifi"
+                        ></use>
+                      </svg>
+                      <!-- after -->
+                      <div class="content">
+                        <span>Wi-Fi hotspot</span>
+                        <span class="content-large">15 EUR</span>
+                      </div>
+                    </div>
+                    <label class="item-checkbox">
+                      <input
+                        class="visually-hidden"
+                        type="checkbox"
+                        name="Wi-Fi hotspot"
+                        aria-label="Wi-Fi hotspot"
+                      />
+
+                      <svg class="btn__icon" width="24" height="24">
+                        <use
+                          class="checkbox-icon-unchecked"
+                          href="./assets/icons/icons-sprite.svg#icon-plus"
+                        ></use>
+                        <use
+                          class="checkbox-icon-checked"
+                          href="./assets/icons/icons-sprite.svg#icon-minus"
+                        ></use>
+                      </svg>
+                    </label>
+                  </li>
+                  <li class="section-grid-item">
+                    <div class="item-content-wrapper">
+                      <svg class="extras-icon" width="24" height="24">
+                        <use
+                          href="./assets/icons/icons-sprite.svg#icon-additional-driver"
+                        ></use>
+                      </svg>
+                      <!-- after -->
+                      <div class="content">
+                        <span>Additional driver</span>
+                        <span class="content-large">15 EUR</span>
+                      </div>
+                    </div>
+                    <label class="item-checkbox">
+                      <input
+                        class="visually-hidden"
+                        type="checkbox"
+                        name="Additional driver"
+                        aria-label="Additional driver"
+                      />
+
+                      <svg class="btn__icon" width="24" height="24">
+                        <use
+                          class="checkbox-icon-unchecked"
+                          href="./assets/icons/icons-sprite.svg#icon-plus"
+                        ></use>
+                        <use
+                          class="checkbox-icon-checked"
+                          href="./assets/icons/icons-sprite.svg#icon-minus"
+                        ></use>
+                      </svg>
+                    </label>
+                  </li>
+                  <li class="section-grid-item">
+                    <div class="item-content-wrapper">
+                      <svg class="extras-icon" width="24" height="24">
+                        <use
+                          href="./assets/icons/icons-sprite.svg#icon-headphones-01"
+                        ></use>
+                      </svg>
+                      <!-- after -->
+                      <div class="content">
+                        <span>Roadside waiver</span>
+                        <span class="content-large">15 EUR</span>
+                      </div>
+                    </div>
+                    <label class="item-checkbox">
+                      <input
+                        class="visually-hidden"
+                        type="checkbox"
+                        name="Roadside waiver"
+                        aria-label="Roadside waiver"
+                      />
+
+                      <svg class="btn__icon" width="24" height="24">
+                        <use
+                          class="checkbox-icon-unchecked"
+                          href="./assets/icons/icons-sprite.svg#icon-plus"
+                        ></use>
+                        <use
+                          class="checkbox-icon-checked"
+                          href="./assets/icons/icons-sprite.svg#icon-minus"
+                        ></use>
+                      </svg>
+                    </label>
+                  </li>
+                </ul>
+                <ul class="btn-list hidden-desktop">
+                  <li>
+                    <button class="btn primary continue-btn">Continue</button>
+                  </li>
+                  <li>
+                    <button class="btn secondary back-btn">Back</button>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <!-- after -->
+            <section class="step visually-hidden">
+              <div class="section-menu hidden-desktop">
+                <div class="container section-container">
+                  <ul class="progress-bar">
+                    <li class="progress-bar-item step-1 checked">
+                      <svg
+                        class="progress-icon"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g>
+                          <circle cx="12" cy="12" r="12" fill="#C5A085" />
+                          <g>
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M17.3654 8.23447C17.5154 8.3845 17.5997 8.58794 17.5997 8.80007C17.5997 9.0122 17.5154 9.21565 17.3654 9.36567L10.9654 15.7657C10.8154 15.9156 10.612 15.9999 10.3998 15.9999C10.1877 15.9999 9.98426 15.9156 9.83424 15.7657L6.63424 12.5657C6.48851 12.4148 6.40788 12.2127 6.4097 12.003C6.41152 11.7932 6.49566 11.5925 6.64398 11.4442C6.79231 11.2959 6.99296 11.2118 7.20272 11.2099C7.41247 11.2081 7.61456 11.2887 7.76544 11.4345L10.3998 14.0689L16.2342 8.23447C16.3843 8.0845 16.5877 8.00024 16.7998 8.00024C17.012 8.00024 17.2154 8.0845 17.3654 8.23447Z"
+                              fill="#FEFEFF"
+                            />
+                          </g>
+                        </g>
+                      </svg>
+                      <span>Add on extras</span>
+                    </li>
+                    <li
+                      class="progress-bar-item step-2 in-progress"
+                      aria-current="step"
+                    >
+                      <svg
+                        class="progress-icon"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g>
+                          <circle
+                            cx="12"
+                            cy="12"
+                            r="12"
+                            fill="#B68867"
+                            fill-opacity="0.2"
+                          />
+                          <circle
+                            cx="12"
+                            cy="12"
+                            r="6.5"
+                            fill="#B68867"
+                            stroke="#FEFEFF"
+                          />
+                        </g>
+                      </svg>
+                      <span>Insurance</span>
+                    </li>
+                    <li class="progress-bar-item step-3 non-active">
+                      <div class="non-active-wrapper">
+                        <svg
+                          width="12"
+                          height="12"
+                          viewBox="0 0 12 12"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g>
+                            <circle cx="6" cy="6" r="6" fill="#4F4F51" />
+                          </g>
+                        </svg>
+                      </div>
+                      <span>Confirm Order</span>
+                    </li>
+                    <li class="progress-bar-item step-4 non-active">
+                      <div class="non-active-wrapper">
+                        <svg
+                          width="12"
+                          height="12"
+                          viewBox="0 0 12 12"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g>
+                            <circle cx="6" cy="6" r="6" fill="#4F4F51" />
+                          </g>
+                        </svg>
+                      </div>
+                      <span>Payment</span>
+                    </li>
+                  </ul>
+                  <div class="info-container">
+                    <div class="product-thumb-mini">
+                      <picture>
+                        <source
+                          media="(max-width: 1919px)"
+                          srcset="
+                            ./assets/images/tablet/car-mini@1x.png 1x,
+                            ./assets/images/tablet/car-mini@2x.png 2x
+                          "
+                          type="image/jpg"
+                          width="74"
+                        />
+                        <img
+                          src="./assets/images/mobile/car-mini@1x.png"
+                          alt="Volkswagen Touareg"
+                          width="74"
+                          loading="lazy"
+                        />
+                      </picture>
+                    </div>
+                    <div class="product-info-mini">
+                      <span class="product-title-mini">Volkswagen Touareg</span>
+                      <span class="product-subtitle-mini"
+                        >or similar Intermediate</span
+                      >
+                      <span class="product-description-mini">1 rental day</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="container section-container product-insurance-container"
+              >
+                <h4 class="section-title">Insurance</h4>
+                <ul class="section-list">
+                  <li class="section-list-item">
+                    <input
+                      type="radio"
+                      name="insurance"
+                      id="no-insurance"
+                      class="visually-hidden"
+                    />
+                    <label
+                      class="insurance-checkbox"
+                      for="no-insurance"
+                    ></label>
+                    <div>
+                      <h5 class="title">No Insurance</h5>
+                      <span class="description">Free</span>
+
+                      <span class="sublist-title">Important Notice:</span>
+                      <ul class="sublist">
+                        <li class="sublist-item">
+                          <svg width="16" height="16">
+                            <use
+                              href="./assets/icons/icons-sprite.svg#icon-alert-circle"
+                            ></use>
+                          </svg>
+                          <p class="item-text">
+                            You are fully responsible for any damage to the
+                            vehicle.
+                          </p>
+                        </li>
+                        <li class="sublist-item">
+                          <svg width="16" height="16">
+                            <use
+                              href="./assets/icons/icons-sprite.svg#icon-alert-circle"
+                            ></use>
+                          </svg>
+                          <p class="item-text">
+                            Full repair costs will be charged in case of an
+                            accident or damage (no financial limit).
+                          </p>
+                        </li>
+                      </ul>
+                      <p class="subtext">
+                        We strongly recommend choosing one of the insurance
+                        options to ensure a worry-free journey.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="section-list-item">
+                    <input
+                      type="radio"
+                      name="insurance"
+                      id="basic-insurance"
+                      class="visually-hidden"
+                      checked
+                    />
+                    <label
+                      class="insurance-checkbox"
+                      for="basic-insurance"
+                    ></label>
+                    <div>
+                      <h5 class="title">Basic Insurance</h5>
+                      <span class="description">15 EUR/Day</span>
+                      <ul class="sublist">
+                        <li class="sublist-item">
+                          <svg width="16" height="16">
+                            <use
+                              href="./assets/icons/icons-sprite.svg#icon-check-circle-broken-white"
+                            ></use>
+                          </svg>
+                          <p class="item-text">
+                            Coverage for vehicle damage in case of an accident
+                            (with excess).
+                          </p>
+                        </li>
+                        <li class="sublist-item">
+                          <svg width="16" height="16">
+                            <use
+                              href="./assets/icons/icons-sprite.svg#icon-check-circle-broken-white"
+                            ></use>
+                          </svg>
+                          <p class="item-text">
+                            Limited financial liability with a
+                            deductible/excess.
+                          </p>
+                        </li>
+                        <li class="sublist-item">
+                          <svg width="16" height="16">
+                            <use
+                              href="./assets/icons/icons-sprite.svg#icon-check-circle-broken-white"
+                            ></use>
+                          </svg>
+                          <p class="item-text">
+                            Partial coverage for car body damages (does not
+                            cover tires, windows, roof, or undercarriage).
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="section-list-item">
+                    <input
+                      type="radio"
+                      name="insurance"
+                      id="comprehensive-insurance"
+                      class="visually-hidden"
+                    />
+                    <label
+                      class="insurance-checkbox"
+                      for="comprehensive-insurance"
+                    ></label>
+                    <div>
+                      <h5 class="title">Comprehensive Insurance</h5>
+                      <span class="description">25 EUR/Day</span>
+                      <ul class="sublist">
+                        <li class="sublist-item">
+                          <svg width="16" height="16">
+                            <use
+                              href="./assets/icons/icons-sprite.svg#icon-check-circle-broken-green"
+                            ></use>
+                          </svg>
+                          <p class="item-text">
+                            Full coverage for all damages (including tires,
+                            windows, roof, and undercarriage).
+                          </p>
+                        </li>
+                        <li class="sublist-item">
+                          <svg width="16" height="16">
+                            <use
+                              href="./assets/icons/icons-sprite.svg#icon-check-circle-broken-green"
+                            ></use>
+                          </svg>
+                          <p class="item-text">Theft protection.</p>
+                        </li>
+                        <li class="sublist-item">
+                          <svg width="16" height="16">
+                            <use
+                              href="./assets/icons/icons-sprite.svg#icon-check-circle-broken-green"
+                            ></use>
+                          </svg>
+                          <p class="item-text">
+                            No deductible/excess (or minimal excess).
+                          </p>
+                        </li>
+                        <li class="sublist-item">
+                          <svg width="16" height="16">
+                            <use
+                              href="./assets/icons/icons-sprite.svg#icon-check-circle-broken-green"
+                            ></use>
+                          </svg>
+                          <p class="item-text">
+                            Roadside assistance in case of breakdowns or
+                            accidents.
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+                <ul class="btn-list hidden-desktop">
+                  <li>
+                    <button class="btn primary continue-btn">Continue</button>
+                  </li>
+                  <li>
+                    <button class="btn secondary back-btn">Back</button>
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </section>
+          <section class="step right-section visually-hidden">
+            <div class="section-menu no-bg hidden-desktop">
+              <div class="container section-container">
+                <ul class="progress-bar">
+                  <li class="progress-bar-item step-1 checked">
+                    <svg
+                      class="progress-icon"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g>
+                        <circle cx="12" cy="12" r="12" fill="#C5A085" />
+                        <g>
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M17.3654 8.23447C17.5154 8.3845 17.5997 8.58794 17.5997 8.80007C17.5997 9.0122 17.5154 9.21565 17.3654 9.36567L10.9654 15.7657C10.8154 15.9156 10.612 15.9999 10.3998 15.9999C10.1877 15.9999 9.98426 15.9156 9.83424 15.7657L6.63424 12.5657C6.48851 12.4148 6.40788 12.2127 6.4097 12.003C6.41152 11.7932 6.49566 11.5925 6.64398 11.4442C6.79231 11.2959 6.99296 11.2118 7.20272 11.2099C7.41247 11.2081 7.61456 11.2887 7.76544 11.4345L10.3998 14.0689L16.2342 8.23447C16.3843 8.0845 16.5877 8.00024 16.7998 8.00024C17.012 8.00024 17.2154 8.0845 17.3654 8.23447Z"
+                            fill="#FEFEFF"
+                          />
+                        </g>
+                      </g>
+                    </svg>
+                    <span>Add on extras</span>
+                  </li>
+                  <li class="progress-bar-item step-2 checked">
+                    <svg
+                      class="progress-icon"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g>
+                        <circle cx="12" cy="12" r="12" fill="#C5A085" />
+                        <g>
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M17.3654 8.23447C17.5154 8.3845 17.5997 8.58794 17.5997 8.80007C17.5997 9.0122 17.5154 9.21565 17.3654 9.36567L10.9654 15.7657C10.8154 15.9156 10.612 15.9999 10.3998 15.9999C10.1877 15.9999 9.98426 15.9156 9.83424 15.7657L6.63424 12.5657C6.48851 12.4148 6.40788 12.2127 6.4097 12.003C6.41152 11.7932 6.49566 11.5925 6.64398 11.4442C6.79231 11.2959 6.99296 11.2118 7.20272 11.2099C7.41247 11.2081 7.61456 11.2887 7.76544 11.4345L10.3998 14.0689L16.2342 8.23447C16.3843 8.0845 16.5877 8.00024 16.7998 8.00024C17.012 8.00024 17.2154 8.0845 17.3654 8.23447Z"
+                            fill="#FEFEFF"
+                          />
+                        </g>
+                      </g>
+                    </svg>
+                    <span>Insurance</span>
+                  </li>
+                  <li
+                    class="progress-bar-item step-3 in-progress"
+                    aria-current="step"
+                  >
+                    <div class="non-active-wrapper">
+                      <svg
+                        class="progress-icon"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g>
+                          <circle
+                            cx="12"
+                            cy="12"
+                            r="12"
+                            fill="#B68867"
+                            fill-opacity="0.2"
+                          />
+                          <circle
+                            cx="12"
+                            cy="12"
+                            r="6.5"
+                            fill="#B68867"
+                            stroke="#FEFEFF"
+                          />
+                        </g>
+                      </svg>
+                    </div>
+                    <span>Confirm Order</span>
+                  </li>
+                  <li class="progress-bar-item step-4 non-active">
+                    <div class="non-active-wrapper">
+                      <svg
+                        width="12"
+                        height="12"
+                        viewBox="0 0 12 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g>
+                          <circle cx="6" cy="6" r="6" fill="#4F4F51" />
+                        </g>
+                      </svg>
+                    </div>
+                    <span>Payment</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="container section-container confirm-container">
+              <div class="booking-form-wrapper">
+                <h4 class="section-title">Confirming order</h4>
+                <form class="booking-form">
+                  <label class="form-label booking">
+                    First name <span class="label-asterisk">&#42;</span>
+                    <!-- after -->
+                    <input
+                      type="text"
+                      name="first-name"
+                      class="form-input booking"
+                      placeholder="Enter Your First Name"
+                      required
+                    />
+                    <svg class="invalid-icon" width="16" height="16">
+                      <use
+                        href="./assets/icons/icons-sprite.svg#icon-alert-circle"
+                      ></use>
+                    </svg>
+                  </label>
+                  <label class="form-label booking">
+                    Last name <span class="label-asterisk">&#42;</span>
+                    <!-- after -->
+                    <input
+                      type="text"
+                      name="last-name"
+                      class="form-input booking"
+                      placeholder="Enter Your Last Name"
+                      required
+                    />
+                    <svg class="invalid-icon" width="16" height="16">
+                      <use
+                        href="./assets/icons/icons-sprite.svg#icon-alert-circle"
+                      ></use>
+                    </svg>
+                  </label>
+
+                  <div class="field-wrapper">
+                    <label for="phone-input" class="form-label booking"
+                      >Phone number <span class="label-asterisk">&#42;</span>
+
+                      <input
+                        id="phone-input"
+                        type="tel"
+                        class="form-input booking phone"
+                        placeholder="(555) 000-0000"
+                        inputmode="tel"
+                        required
+                      />
+
+                      <svg class="invalid-icon" width="16" height="16">
+                        <use
+                          href="./assets/icons/icons-sprite.svg#icon-alert-circle"
+                        ></use>
+                      </svg>
+                    </label>
+                    <div class="custom-select" id="country-select">
+                      <div class="select-trigger">
+                        <span class="country-code">US</span>
+                        <svg width="20" height="20">
+                          <use
+                            href="./assets/icons/icons-sprite.svg#icon-chevron-down"
+                          ></use>
+                        </svg>
+                      </div>
+                      <ul class="country-list">
+                        <li data-country="US" data-dial="+1">US +1</li>
+                        <li data-country="UA" data-dial="+380">UA +380</li>
+                        <li data-country="HR" data-dial="+385">HR +385</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <label class="form-label booking">
+                    Email <span class="label-asterisk">&#42;</span>
+                    <!-- after -->
+                    <input
+                      type="email"
+                      name="email"
+                      class="form-input booking"
+                      placeholder="olivia@untitledui.com"
+                      required
+                    />
+                    <svg class="invalid-icon" width="16" height="16">
+                      <use
+                        href="./assets/icons/icons-sprite.svg#icon-alert-circle"
+                      ></use>
+                    </svg>
+                  </label>
+                </form>
+              </div>
+              <div class="booking-summary">
+                <ul class="booking-list">
+                  <li class="booking-item">
+                    <span class="item-title">Date</span>
+                    <div class="item-subscription time">
+                      <span class="start-date">Jan 1</span>
+                      <!-- after -->
+                      <span class="start-time">08:00</span>
+                      <!-- after -->
+                      <span class="end-date">Jan 2</span>
+                      <!-- after -->
+                      <span class="end-time">20:00</span>
+                    </div>
+                  </li>
+                  <li class="booking-item">
+                    <span class="item-title">Location</span>
+                    <div class="item-subscription location">
+                      <span class="pick-up">Bratislava Bus Terminal</span>
+                      <!-- after -->
+                      <span class="drop-off">Bratislava Bus Terminal</span>
+                    </div>
+                  </li>
+                  <li class="booking-item">
+                    <span class="item-title">Volkswagen Touareg</span>
+                    <span class="item-subscription">32,98 EUR</span>
+                  </li>
+                  <li class="booking-item">
+                    <span class="item-title">Basic Insurance</span>
+                    <span class="item-subscription">15 EUR</span>
+                  </li>
+                </ul>
+                <div class="booking-total">
+                  <span>Total</span>
+                  <span>62,98 EUR</span>
+                </div>
+              </div>
+
+              <label class="booking-checkbox">
+                <input type="checkbox" name="accept" class="visually-hidden" />
+                <svg class="btn__icon" width="20" height="20">
+                  <use
+                    class="checkbox-icon-unchecked"
+                    href="./assets/icons/icons-sprite.svg#icon-checkbox-unchecked"
+                  ></use>
+                  <use
+                    class="checkbox-icon-checked"
+                    href="./assets/icons/icons-sprite.svg#icon-checkbox-checked"
+                  ></use>
+                </svg>
+                I accept the terms & conditions
+              </label>
+            </div>
+            <ul class="container section-container btn-list">
+              <li>
+                <button class="btn secondary">Pay cash</button>
+              </li>
+              <li>
+                <button class="btn primary">Pay card</button>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+      <section class="contact-us">
+        <div class="container section-container contact-us-container">
+          <ul class="avatar-list">
+            <li class="avatar odd">
+              <div class="avatar-thumb">
+                <img src="./assets/images/avatar-1.png" alt="" />
+              </div>
+              <!-- after -->
+            </li>
+            <li class="avatar even">
+              <div class="avatar-thumb">
+                <img src="./assets/images/avatar-2.png" alt="" />
+              </div>
+              <!-- after -->
+            </li>
+            <li class="avatar odd">
+              <div class="avatar-thumb">
+                <img src="./assets/images/avatar-3.png" alt="" />
+              </div>
+              <!-- after -->
+            </li>
+          </ul>
+          <div class="contact-us-content">
+            <h2 class="section-title contact-us-section">
+              Still have questions?
+            </h2>
+            <p class="section-description">
+              Can’t find the answer you’re looking for? Please chat to our
+              friendly team.
+            </p>
+          </div>
+          <button class="btn primary small">Contact us</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container section-container footer-container">
+        <div class="footer-main-content">
+          <div class="brand-wrapper">
+            <a href="./index.html">
+              <svg width="150" height="18">
+                <use href="./assets/icons/icons-sprite.svg#icon-logo"></use>
+              </svg>
+            </a>
+            <p>Your trusted ride awaits.</p>
+          </div>
+          <form class="subscribe-form">
+            <label class="form-label subscribe">
+              Stay up to date
+              <input
+                type="email"
+                name="email"
+                class="form-input subscribe"
+                placeholder="Enter your email"
+              />
+              <svg class="invalid-icon" width="16" height="16">
+                <use
+                  href="./assets/icons/icons-sprite.svg#icon-alert-circle"
+                ></use>
+              </svg>
+            </label>
+            <button class="btn secondary small">Subscribe</button>
+          </form>
+        </div>
+        <!-- after -->
+        <div class="footer-secondary-content">
+          <span>&copy; 2077 Untitled UI. All rights reserved.</span>
+          <ul class="footer-list">
+            <li><a href="./index.html">Terms</a></li>
+            <li><a href="./index.html">Privacy</a></li>
+            <li><a href="./index.html">Cookies</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <div class="backdrop js-menu-container">
+      <div class="mobile-menu">
+        <div class="container mobile-menu-container">
+          <nav class="container nav">
+            <ul class="nav-list mobile">
+              <li>
+                <a href="./index.html">Book</a>
+              </li>
+              <li>
+                <a href="./index.html">Help</a>
+              </li>
+              <li>
+                <a href="./index.html">FAQ</a>
+              </li>
+              <li><a href="./index.html">Rental policies</a></li>
+              <li><a href="./index.html">Help center</a></li>
+            </ul>
+          </nav>
+          <div class="bottom-container">
+            <div class="btn-container">
+              <button class="btn primary right-icon">
+                <span>Sign in</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="21"
+                  height="20"
+                  viewBox="0 0 21 20"
+                  fill="none"
+                >
+                  <path
+                    d="M5.5 14.1667C5.5 14.9416 5.5 15.3291 5.58519 15.647C5.81635 16.5098 6.49022 17.1836 7.35295 17.4148C7.67087 17.5 8.05836 17.5 8.83333 17.5H14C15.4001 17.5 16.1002 17.5 16.635 17.2275C17.1054 16.9878 17.4878 16.6054 17.7275 16.135C18 15.6002 18 14.9001 18 13.5V6.5C18 5.09987 18 4.3998 17.7275 3.86502C17.4878 3.39462 17.1054 3.01217 16.635 2.77248C16.1002 2.5 15.4001 2.5 14 2.5H8.83333C8.05836 2.5 7.67087 2.5 7.35295 2.58519C6.49022 2.81635 5.81635 3.49022 5.58518 4.35295C5.5 4.67087 5.5 5.05836 5.5 5.83333M10.5 6.66667L13.8333 10M13.8333 10L10.5 13.3333M13.8333 10H3"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+            <ul class="header-menu mobile">
+              <li class="menu-item">
+                <a class="contact-link" href="tel:+1234567890">
+                  <svg width="24" height="24">
+                    <use
+                      href="./assets/icons/icons-sprite.svg#icon-phone"
+                    ></use>
+                  </svg>
+                  +123 456 7890</a
+                >
+              </li>
+              <li class="menu-item language-select reverse">
+                <div class="select-trigger">
+                  <span class="selected-language">EN</span>
+                  <svg width="24" height="24">
+                    <use
+                      href="./assets/icons/icons-sprite.svg#icon-chevron-down"
+                    ></use>
+                  </svg>
+                </div>
+                <ul class="language-list">
+                  <li data-lang="UA">
+                    <div>
+                      <svg width="20" height="20">
+                        <use
+                          href="./assets/icons/icons-sprite.svg#icon-flag-ukraine"
+                        ></use>
+                      </svg>
+                      <span>Ukrainian</span>
+                    </div>
+                    <svg width="20" height="20">
+                      <use
+                        href="./assets/icons/icons-sprite.svg#icon-light_check"
+                      ></use>
+                    </svg>
+                  </li>
+                  <li data-lang="EN">
+                    <div>
+                      <svg width="20" height="20">
+                        <use
+                          href="./assets/icons/icons-sprite.svg#icon-flag-united-kingdom"
+                        ></use>
+                      </svg>
+                      <span>English</span>
+                    </div>
+                    <svg width="20" height="20">
+                      <use
+                        href="./assets/icons/icons-sprite.svg#icon-light_check"
+                      ></use>
+                    </svg>
+                  </li>
+                  <li data-lang="HR">
+                    <div>
+                      <svg width="20" height="20">
+                        <use
+                          href="./assets/icons/icons-sprite.svg#icon-flag-croatia"
+                        ></use>
+                      </svg>
+                      <span>Croatian</span>
+                    </div>
+                    <svg width="20" height="20">
+                      <use
+                        href="./assets/icons/icons-sprite.svg#icon-light_check"
+                      ></use>
+                    </svg>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/language-select.js"></script>
+    <script src="./js//step-navigator.js"></script>
+    <script src="./js/country-code-select.js"></script>
+  </body>
+</html>
